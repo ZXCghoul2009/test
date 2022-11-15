@@ -1,0 +1,22 @@
+.button {
+  background-color: #ff1a1a;
+  cursor: pointer;
+  border: 1px solid white;
+  font-size: 1.2rem;
+  padding: 1em 1em;
+  color: #fff;
+  font-weight: 600;
+
+  &:hover {
+    background-color: #ff1a1a;
+  }
+
+  &:active {
+  }
+}
+
+@media (min-width: 450px) {
+  .button {
+    padding: 1em 2em;
+  }
+}
